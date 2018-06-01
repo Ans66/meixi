@@ -33,7 +33,7 @@ img{
 #nav{width:100%;height: 66px;}
 #nav1{width:1200px;height: 100%;margin: auto;}
 #nav1 ul li{float: left;}
-#nav1 ul li a{display: block;width:132px;height:60px;text-align: center;line-height: 60px;}
+#nav1 ul li a{display: block;width:132px;height:60px;text-align: center;line-height: 60px;color: #000000;}
 #nav1-ul{width:1200px;height: 60px;color: #666666;font-weight: bold;}
 #nav1 h4{width:100%;height:9px;background: url(../img-1/headerbg.png)  repeat-x;}
 
@@ -130,7 +130,7 @@ img{
 
 #right-1{width:300px;height:200px;padding-top:10px;border-right: 1px solid #CCCCCC;float: left;text-align: center;}
 #right-1 input{width:173px;height:41px;border-radius: 2px;border:1px solid #e8e8e8;background: #f5f5f5;padding-left: 22px;line-height: 41px;margin-top: 24px;}
-#right-1 a{display:block;width:173px;height:49px;border: 1px solid #000000;background: #000000;border-radius: 2px;line-height: 49px;color: #FFFFFF;margin: 25px auto 0;}
+#right-1 a{display:block;width:173px;height:49px;border: 1px solid #414141;background: #414141;border-radius: 2px;line-height: 49px;color: #FFFFFF;margin: 25px auto 0;}
 
 #right-2{width:300px;height:200px;padding-top:10px;float: left;text-align: center;padding-left: 27px;}
 #le{width:109px;height:150px;float: left;margin-left:20px ;}
@@ -156,18 +156,20 @@ img{
 #i-right h1{width:52px;height:52px;background: url(../img-1/footer_icon.png) no-repeat ;float: left;margin-top:42px;}
 
 #foot-bottom{width:100%;height:140px;border-top:1px solid #4d4d4d;}
-#bottom-left{width:610px;height:100%;border-right: 1px solid #333333;color:#999999;font-size: 12px;padding-top: 30px;float:left ;}
-#bottom-left ul li{float: left;}
+#foot-bottom a{color:#999999;}
+#bottom-left{width:610px;height:120px;border-right: 1px solid #333333;color:#999999;font-size: 12px;margin-top: 10px;float:left ;padding-top: 20px;}
+#bottom-left ul li{float: left;color:#999999}
 #bottom-left ul li b{display: block;padding: 0 12px;}
 #bottom-left i{font-style: normal;line-height: 47px;}
 #bottom-left span{margin-right: 20px;}
 
-#bottom-right{width:590px;height:100%;border-left:1px solid #4d4d4d;float:left;font-size: 12px;color:#999999;}
-#bottom-right span{display: block;text-align: center;padding-top:41px ;}
-#bottom-right ul li{float:left;text-align: center;line-height: 60px;margin: 5px 15px;}
-#bottom-right ul li a h1{width:18px;height:32px;background: url(../img-1/partner_icon.png) no-repeat;}
-#bottom-right ul li a h2{width:32px;height:19px;background: url(../img-1/partner_icon.png) no-repeat -197px 0px;float: left;}
-#bottom-right ul li a h3{width:70px;height:23px;background: url(../img-1/footer.png) no-repeat 0 -23px;}
-#bottom-right ul li a h4{width:73px;height:41px;background: url(../img-1/partner_icon.png) no-repeat -127px;}
-#bottom-right ul li a h5{width:63px;height:45px;background: url(../img-1/partner_icon.png) no-repeat -65px;}
-#bottom-right ul li a h6{width:78px;height:24px;background: url(../img-1/footer.png) no-repeat -76px -23px;margin-top: 18px;float: right;}
+#bottom-right{width:590px;height:120px;border-left:1px solid #4d4d4d;float:left;color:#999999;margin-top: 5px;padding-top: 15px;}
+#bottom-right span{display: block;text-align: center;padding-top:20px ;margin-bottom: 10px;}
+#bottom-right ul li{width:98px;height:70px;float:left;text-align: center;line-height: 60px;color:#999999;font-size: 12px;}
+#bottom-right ul li a h1{width:18px;height:32px;background: url(../img-1/partner_icon.png) no-repeat;margin-left:25px ;}
+#bottom-right ul li a h2{width:32px;height:19px;background: url(../img-1/partner_icon.png) no-repeat -197px 0px;float: left;margin-left:-22px ;}
+#bottom-right ul li a h3{width:70px;height:24px;background: url(../img-1/footer.png) no-repeat 0 -23px;margin-left:26px ;}
+#bottom-right ul li a h4{width:73px;height:41px;background: url(../img-1/partner_icon.png) no-repeat -127px;margin-left:27px ;}
+#bottom-right ul li a h5{width:63px;height:45px;background: url(../img-1/partner_icon.png) no-repeat -65px;margin-left:30px ;}
+#bottom-right ul li a h6{width:78px;height:24px;background: url(../img-1/footer.png) no-repeat -76px -23px;margin-top: 18px;margin-left:20px ;}
+
